@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.hero {
+  background-color: #2f70fe;
+  position: relative;
+}
+
+.hero-left {
+  bottom: -30px;
+}
+.hero-right {
+  bottom: 100px;
+  right: 0;
+}
+
+.shape-divider-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+  transform: rotateY(180deg);
+}
+
+.shape-divider-bottom .shape-fill {
+  fill: #ffffff;
+}
