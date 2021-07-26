@@ -15,6 +15,14 @@ body {
   right: 0;
 }
 
+.list-left-img {
+  bottom: -20px;
+  left: 100px;
+}
+.list-right-img {
+  top: -20px;
+  right: 100px;
+}
 .shape-divider-bottom {
   position: absolute;
   bottom: 0;
@@ -35,4 +43,9 @@ body {
 
 .shape-divider-bottom .shape-fill {
   fill: #ffffff;
+}
+
+.footer-top li {
+  font-size: 13px;
+  margin: 10px 0;
 }
